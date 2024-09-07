@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 :root {
-  
+
+}
+
+.titulo{
+  color: #00FFA5FF;
+  font-weight: bold;
 }
