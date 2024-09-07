@@ -1,9 +1,9 @@
-let DiaDeHoje: string = "07/09/2024"
+const DiaDeHoje: string = "07/09/2024"
 
 function Cabecario()
 {
   return(
-    <div className="flex justify-between items-center bg-gray-300 h-15">
+    <div className="flex justify-between items-center bg-neutral-900 h-15 headers">
       <div>Hyper</div>
       <div className="flex flex-col justify-between items-center">
         <div className="titulo">Bem vindo a o Hyper!</div>

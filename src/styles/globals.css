@@ -7,6 +7,11 @@
 }
 
 .titulo{
-  color: #00FFA5FF;
+  color: rgb(255, 230, 0);
   font-weight: bold;
+}
+
+.headers{
+  color: azure;
+  
 }
