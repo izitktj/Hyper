@@ -1,20 +1,10 @@
-function Cabecario()
-{
+import Topo from "@/components/Topo";
+import Video from "@/components/Video";
+import Lateral from "@/components/Lateral";
+
+function SubCabecario() {
   return(
-    <div className="headers">
-      <div>Hyper</div>
-      <div className="flex flex-col justify-between items-center">
-        <div className="titulo">Bem vindo a o Hyper!</div>
-        <div>luagr de fazer sucesso</div>
-      </div>
-      <div>Login</div>
-    </div>
-  )
-}
-function SubCabecario()
-{
-  return(
-    <div style={SubHeader}>
+    <div style={SubHeader} className="gap-4">
       <div>Vídeos engraçados</div>
       <div>Jogos divertidos</div>
       <div>Postagens de texto</div>
@@ -26,17 +16,25 @@ function SubCabecario()
 
 const SubHeader = {
   display: 'flex',
-  justifyContent: 'space-evenly',
+  justifyContent: 'center',
   alignItems: 'center',
   backgroundColor: '#2a2642',
-  color: '#e3c336'
+  color: '#e3c336',
 }
 
 export default function Home() {
   return (
-    <main>
-      <Cabecario/>
+    <main className="bg-slate-950">
+      <Topo/>
       <SubCabecario/>
+      <div className="flex flex-row p-4 gap-4">
+        <Lateral/>
+        <div className="flex justify-center flex-row gap-2">
+          <Video nome={'Receba v2'} descricao={'RECEBA CARACA!!!! #luva'}/>
+          <Video nome={"Carlinhos dando a bunda pros caras"} descricao={"shitpost"}/>
+          <Video nome={"Perdi o no fap tropa"} descricao={"#ff #fyp #soucarentemedaantencao"}/>
+        </div>
+      </div>
     </main>
   );
 }
