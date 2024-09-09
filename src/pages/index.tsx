@@ -4,7 +4,7 @@ import Lateral from "@/components/Lateral";
 
 function SubCabecario() {
   return(
-    <div style={SubHeader} className="gap-4">
+    <div className="flex justify-center align-top bg-orange-600 text-white gap-4">
       <div>Vídeos engraçados</div>
       <div>Jogos divertidos</div>
       <div>Postagens de texto</div>
@@ -12,14 +12,6 @@ function SubCabecario() {
       <div>E muito mais</div>
     </div>
   )
-}
-
-const SubHeader = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  backgroundColor: '#2a2642',
-  color: '#e3c336',
 }
 
 export default function Home() {
