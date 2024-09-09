@@ -29,11 +29,11 @@ export default function Home() {
       <SubCabecario/>
       <div className="flex flex-row h-screen bg-slate-900">
         <div className="flex items-center place-items-center">
-          <Lateral/>
+          <Lateral nomeAcc={"Gustavo"}/>
         </div>
 
         <div className="flex-1 flex justify-center place-items-top h-18 overflow-auto">
-          <div className="flex flex-row gap-2">
+          <div className="flex flex-row gap-2 p-2">
             <Video nome={"Receba v2"} descricao={"RECEBA CARACA!!!! #luva"}/>
             <Video nome={"Carlinhos dando a bunda pros caras"} descricao={"shitpost"}/>
             <Video nome={"Perdi o no fap tropa"} descricao={"#ff #fyp #soucarentemedaantencao"}/>
