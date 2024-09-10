@@ -1,12 +1,15 @@
+import Image from "next/image"
+
 export default function Topo() {
     return(
         <div className="headers">
-        <div>Hyper</div>
-        <div className="flex flex-col justify-between items-center">
-            <div className="titulo">Bem vindo a o Hyper!</div>
-            <div>luagar de fazer sucesso</div>
-        </div>
-        <div>Login</div>
+        <Image
+            src="/Logo.png"
+            width={40}
+            height={40}
+            alt="Picture of the author"
+        />
+        <div className="text-xl text-orange-600">Login</div>
         </div>
     )
 }
