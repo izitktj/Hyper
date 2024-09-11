@@ -6,28 +6,9 @@
   
 }
 
-.titulo{
-  color: rgb(255, 230, 0);
-  font-weight: bold;
-}
-
-.headers{
-  color: azure;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(12, 12, 15);
-  height: 15;
-  padding-inline: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .limit{
   min-width: 200px;
   max-width: 200px;
   min-height: 150px;
   max-height: 150px;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }

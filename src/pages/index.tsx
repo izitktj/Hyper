@@ -16,21 +16,17 @@ function SubCabecario() {
 
 export default function Home() {
   return (
-    <main className="bg-slate-950">
+    <main className="bg-slate-950 h-screen w-screen overflow-auto">
       <Topo/>
       <SubCabecario/>
-      <div className="flex flex-row h-screen bg-slate-900">
-        <div className="flex items-center place-items-center">
-          <Lateral nomeAcc={"Gustavo"}/>
-        </div>
+      <div className="flex flex-row bg-slate-900">
+        <Lateral nomeAcc={"Gustavo"}/>
 
-        <div className="flex-1 flex justify-center place-items-top h-18 overflow-auto">
-          <div className="flex flex-row gap-2 p-2">
-            <Video nome={"Receba v2"} descricao={"RECEBA CARACA!!!! #luva"}/>
-            <Video nome={"Carlinhos dando a bunda pros caras"} descricao={"shitpost"}/>
-            <Video nome={"Perdi o no fap tropa"} descricao={"#ff #fyp #soucarentemedaantencao"}/>
-            <Video nome={"Como cromar cartuão atualizado atualizado 2012 sem virus kkkkkk"} descricao={"#crime #7"}/>
-          </div>
+        <div className="flex flex-1 flex-wrap flex-row justify-center gap-2 p-2">
+          <Video nome={"Receba v2"} descricao={"RECEBA CARACA!!!! #luva"}/>
+          <Video nome={"Carlinhos dando a bunda pros caras"} descricao={"shitpost"}/>
+          <Video nome={"Perdi o no fap tropa"} descricao={"#ff #fyp #soucarentemedaantencao"}/>
+          <Video nome={"Como cromar cartuão atualizado atualizado 2012 sem virus kkkkkk"} descricao={"#crime #7"}/>
         </div>
       </div>
     </main>
