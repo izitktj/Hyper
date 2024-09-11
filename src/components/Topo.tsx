@@ -2,12 +2,12 @@ import Image from "next/image"
 
 export default function Topo() {
     return(
-        <div className="headers">
+        <div className="flex justify-between items-center bg-black h-15 px-6 py-2">
         <Image
-            src="/Logo.png"
+            src="/hyper logo.svg"
             width={40}
             height={40}
-            alt="Picture of the author"
+            alt="Hyper Logo"
         />
         <div className="text-xl text-orange-600">Login</div>
         </div>

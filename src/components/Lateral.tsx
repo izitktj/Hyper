@@ -1,4 +1,8 @@
-export default function Lateral(props: any) {
+interface LateralProps{
+    nomeAcc:string
+}
+
+export default function Lateral(props: LateralProps) {
     return(
         <div className="flex flex-row h-screen gap-2 bg-black px-6">
             <div className="flex flex-col p-2">
