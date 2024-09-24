@@ -24,9 +24,9 @@ export default function Home() {
 
         <div className="flex flex-1 flex-wrap flex-row justify-center gap-2 p-2">
           <Video nome={"Receba v2"} descricao={"RECEBA CARACA!!!! #luva"}/>
-          <Video nome={"Carlinhos dando a bunda pros caras"} descricao={"shitpost"}/>
-          <Video nome={"Perdi o no fap tropa"} descricao={"#ff #fyp #soucarentemedaantencao"}/>
-          <Video nome={"Como cromar cartuão atualizado atualizado 2012 sem virus kkkkkk"} descricao={"#crime #7"}/>
+          <Video nome={"Salamalenga"} descricao={"shitpost"}/>
+          <Video nome={"Perdi a rank tropa"} descricao={"#ff #fyp #soucarentemedaantencao"}/>
+          <Video nome={"Como escalar predios da altura do empire state fácil e rápido"} descricao={"#escalacao #seila"}/>
         </div>
       </div>
     </main>
