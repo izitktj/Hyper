@@ -27,7 +27,7 @@ export default function Home() {
           <Video nome={"Salamalenga"} descricao={"shitpost"}/>
           <Video nome={"Perdi a rank tropa"} descricao={"#ff #fyp #soucarentemedaantencao"}/>
           <Video nome={"Como escalar predios da altura do empire state fácil e rápido"} descricao={"#escalacao #seila"}/>
-          <Video/>
+          <Video nome="" descricao=""/>
         </div>
       </div>
     </main>
